@@ -95,7 +95,7 @@ function purchase() {
                 name: "choice",
                 validate: value => {
                     let valid = !isNaN(parseFloat(value));
-                    return valid || "Please Enter A Number";
+                    return valid || "Please Enter Item ID #";
                 }
             }
         ])
