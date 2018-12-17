@@ -4,7 +4,7 @@ var Table = require("cli-table");
 var inquirer = require("inquirer");
 
 // MySQL Connection
-const connection = mysql.createConnection({
+var connection = mysql.createConnection({
     host: "localhost",
     port: 8889,
     user: "root",
